@@ -73,8 +73,8 @@ img {
 /*===HEADER===*/
 
 .header {
-  padding-bottom: 32px;
-  padding-top: 32px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
@@ -85,6 +85,7 @@ img {
 
 .header-logo {
   color: #2f303a;
+  margin-right: 93px;
 }
 
 .logo {
@@ -93,7 +94,6 @@ img {
 
 .nav-list {
   display: flex;
-  margin-left: 93px;
 }
 
 .nav-list-site:not(:last-child) {
@@ -204,7 +204,6 @@ img {
 
 .features-list {
   display: flex;
-  text-align: center;
   justify-content: space-between;
 }
 
@@ -214,6 +213,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .features-list-text {
@@ -255,8 +255,6 @@ img {
 
 .team {
   background-color: #f5f4fa;
-  display: flex;
-  flex-direction: column;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -275,9 +273,14 @@ img {
   margin-right: 30px;
 }
 
+.team-list-iteam {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
 .team-list-sing {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-list-title {
@@ -313,13 +316,9 @@ img {
   color: #ffffff;
 }
 
-.address-list {
-  display: flex;
-  flex-direction: column;
-  margin-right: auto;
-  margin-top: 20px;
+.web {
+  margin-bottom: 20px;
 }
-
 .address-list-iteam:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -390,6 +389,8 @@ img {
   background: #f5f4fa;
   color: #212121;
   cursor: pointer;
+  border: none;
+  padding: 6px 22px;
 }
 
 .portfolio-btn:hover,
@@ -423,6 +424,7 @@ img {
 .portfolio-sing {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 .portfolio-title3 {
   font-weight: bold;
