@@ -82,14 +82,17 @@ img {
   display: flex;
   align-items: center;
 }
-
-.header-logo {
-  color: #2f303a;
+.logo-header {
   margin-right: 93px;
 }
 
-.logo {
-  justify-items: flex-start;
+.header-logo {
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2f303a;
 }
 
 .nav-list {
@@ -176,6 +179,7 @@ img {
   cursor: pointer;
   border: #2196f3;
   border-radius: 4px;
+  padding: 10px 32px;
 }
 
 .hero-title-btn:hover,
@@ -312,13 +316,15 @@ img {
   padding-bottom: 60px;
 }
 
+.logo-footer {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .footer-logo {
   color: #ffffff;
 }
 
-.web {
-  margin-bottom: 20px;
-}
 .address-list-iteam:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -391,6 +397,7 @@ img {
   cursor: pointer;
   border: none;
   padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .portfolio-btn:hover,
